@@ -8,4 +8,4 @@ Además, el desplazamiento del robot no es un aspecto que competa directamente e
 
 Dado que el video es muy pesado para ser almacenado en GitHub, el video se encuentra en YouTube y puede acceder a él mediante el siguiente enlace:
 
-[demo](https://youtu.be/meqzYyrf9U4)
+[demo](https://youtu.be/VHjVrXDmeoc)
