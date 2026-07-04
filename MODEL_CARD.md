@@ -1,13 +1,11 @@
 # MODEL_CARD.md
 
-## Model name + version
 
 **Nombre del modelo:** Clasificador de comandos de voz para robot Husky A200  
-**Versión:** v1.0  
+**Versión:** v5.0  
 **Archivo del modelo:** `models/mejor_modelo.joblib`  
 **Modelo seleccionado:** SVM con kernel RBF  
 **Representación de entrada:** TF-IDF  
-**Fecha del proyecto:** I ciclo 2026
 
 ## Descripción general
 
@@ -130,7 +128,7 @@ Aunque el sistema fue desarrollado con fines académicos, existen consideracione
 - No debe emplearse como único mecanismo de seguridad en navegación real.
 - Es recomendable implementar confirmación visual o verbal antes de ejecutar movimientos críticos.
 
-En este proyecto no se identifican sesgos por iluminación, cámara o fondo, ya que no se utilizan imágenes. Sin embargo, sí pueden existir sesgos asociados a:
+Se pueden existir sesgos asociados a:
 
 - Acentos específicos.
 - Formas particulares de hablar.
@@ -144,20 +142,11 @@ Limitaciones principales del modelo:
 - Solo reconoce las clases definidas durante el entrenamiento.
 - No interpreta instrucciones fuera del dominio del proyecto.
 - Puede fallar si el texto transcrito por Vosk contiene errores importantes.
-- No resuelve ambigüedades semánticas complejas.
 - No detecta intención si el comando no se parece a las frases del conjunto de datos.
 - La extracción de objetivos depende de reglas adicionales mediante expresiones regulares.
 - No fue entrenado con una gran cantidad de usuarios reales.
 - No fue validado en ambientes con ruido extremo.
 
-Limitaciones no aplicables al proyecto:
-
-- Objetos pequeños.
-- Oclusión.
-- Desenfoque de cámara.
-- Variaciones de iluminación.
-
-Estos elementos corresponden a proyectos de visión por computador, pero no al sistema de comandos de voz desarrollado.
 
 ## Reproducibility
 
@@ -181,55 +170,3 @@ Estos elementos corresponden a proyectos de visión por computador, pero no al s
 - Computadora personal con Ubuntu 20.04.6 LTS.
 - Micrófono integrado o externo.
 - Robot Husky A200 simulado en Gazebo.
-
-### Comandos para preparar el ambiente
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### Comando de entrenamiento
-
-```bash
-python3 src/train_voice_command_models.py \
-    --train data/train_commands.csv \
-    --test data/test_commands.csv \
-    --output models/mejor_modelo.joblib
-```
-
-### Comando de inferencia
-
-```bash
-source /opt/ros/noetic/setup.bash
-source ~/noetic_workspace/devel/setup.bash
-python3 src/voice_command_node.py \
-    --model models/mejor_modelo.joblib
-```
-
-## Output del modelo
-
-El modelo predice una de las siguientes clases:
-
-```text
-GOAL
-PARTIAL
-COMPLETE
-CYCLIC
-```
-
-Posteriormente, el nodo de ROS combina esta predicción con los objetivos extraídos del comando para generar el archivo:
-
-```text
-operation_mode_parameters.txt
-```
-
-## Contacto académico
-
-Autor: Marlon Gutiérrez Vásquez  
-Carné: C33619  
-Curso: IE0435 - Inteligencia Artificial Aplicada a la Ingeniería Eléctrica  
-Universidad de Costa Rica  
-I ciclo 2026
