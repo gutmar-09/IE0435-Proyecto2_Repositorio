@@ -6,4 +6,4 @@ vosk>=0.3.45
 sounddevice>=0.4.6
 scipy>=1.4
 
-Instalación de ROS Noetic
+Instalacion de ROS Noetic
