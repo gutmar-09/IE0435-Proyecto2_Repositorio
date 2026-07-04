@@ -1,0 +1,608 @@
+command,intention,start_goal,end_goal
+inicializa el modo 4,CYCLIC,0,0
+husky ve al objetivo dos,GOAL,0,2
+robot dirigete al objetivo dos,GOAL,0,2
+robot ejecuta modo dos del punto dos al punto cinco,PARTIAL,2,5
+husky activa modo dos del punto 3 al punto 5,PARTIAL,3,5
+recorrido completo,COMPLETE,0,0
+robot realiza recorrido parcial desde el punto uno hasta el punto cuatro,PARTIAL,1,4
+robot ejecuta una trayectoria parcial desde el punto cuatro al punto tres,PARTIAL,4,3
+robot ejecuta modo 2 desde 1 hasta 3,PARTIAL,1,3
+husky activa el modo 1 y ejecuta el objetivo cuatro,GOAL,0,4
+robot activa el modo de operacion dos del punto cuatro al punto tres,PARTIAL,4,3
+husky inicia el modo cuatro,CYCLIC,0,0
+activa el modo cuatro con trayectoria ciclica,CYCLIC,0,0
+robot ejecuta modo uno al objetivo cinco,GOAL,0,5
+husky recorre parcialmente del objetivo cinco al objetivo dos,PARTIAL,5,2
+husky activa el modo de operacion dos del punto cinco al punto cuatro,PARTIAL,5,4
+husky ejecuta solo el objetivo tres,GOAL,0,3
+trayectoria parcial desde el objetivo cuatro hasta el objetivo uno,PARTIAL,4,1
+robot desplacese del punto cinco al punto tres,PARTIAL,5,3
+modo en bucle,CYCLIC,0,0
+husky dirigete al objetivo uno,GOAL,0,1
+robot ejecuta modo 2 desde 4 hasta 1,PARTIAL,4,1
+husky ejecuta modo de operacion 4,CYCLIC,0,0
+robot ejecuta modo dos del punto cuatro al punto dos,PARTIAL,4,2
+activa modo 2 y ve del punto uno al cuatro,PARTIAL,1,4
+husky ejecuta una trayectoria parcial desde el punto cinco al punto tres,PARTIAL,5,3
+robot activa modo 2 desde el objetivo cuatro hasta el objetivo uno,PARTIAL,4,1
+husky ve al objetivo uno,GOAL,0,1
+husky selecciona el modo de operacion 4,CYCLIC,0,0
+husky ejecuta una trayectoria parcial desde el punto uno al punto cuatro,PARTIAL,1,4
+ejecuta modo dos del objetivo cinco al objetivo dos,PARTIAL,5,2
+modo dos punto inicial dos punto final cuatro,PARTIAL,2,4
+robot sigue la trayectoria completa,COMPLETE,0,0
+modo 3 activado en husky,COMPLETE,0,0
+husky desplacese del punto dos al punto uno,PARTIAL,2,1
+activa el modo de operacion cuatro ahora,CYCLIC,0,0
+robot inicia el modo de operacion cuatro,CYCLIC,0,0
+robot activa el modo de operacion dos del punto uno al punto cinco,PARTIAL,1,5
+husky desplacese del punto cinco al punto uno,PARTIAL,5,1
+robot realiza recorrido parcial desde el punto uno hasta el punto tres,PARTIAL,1,3
+ejecuta el modo de operacion 4,CYCLIC,0,0
+husky ejecuta una trayectoria parcial desde el punto cuatro al punto tres,PARTIAL,4,3
+robot realiza recorrido parcial desde el punto cuatro hasta el punto uno,PARTIAL,4,1
+husky pasa por todos los objetivos,COMPLETE,0,0
+husky realiza el recorrido completo,COMPLETE,0,0
+robot realiza recorrido parcial desde el punto uno hasta el punto cinco,PARTIAL,1,5
+robot activa el modo 1 y ejecuta el objetivo cinco,GOAL,0,5
+husky activa modo dos del punto 4 al punto 1,PARTIAL,4,1
+robot activa el modo de operacion dos del punto cuatro al punto cinco,PARTIAL,4,5
+robot muevase solamente al punto tres,GOAL,0,3
+ejecuta todo,COMPLETE,0,0
+robot recorre parcialmente del objetivo dos al objetivo cinco,PARTIAL,2,5
+husky entra en modo tres,COMPLETE,0,0
+cambia al modo de operacion cuatro,CYCLIC,0,0
+trayectoria parcial desde el objetivo uno hasta el objetivo cuatro,PARTIAL,1,4
+pasa por todos los objetivos,COMPLETE,0,0
+husky activa modo dos del punto 3 al punto 4,PARTIAL,3,4
+robot ejecuta modo tres,COMPLETE,0,0
+robot activa el modo de operacion dos del punto cinco al punto tres,PARTIAL,5,3
+husky activa el modo de operacion 1 hacia el objetivo uno,GOAL,0,1
+husky activa modo dos del punto 4 al punto 3,PARTIAL,4,3
+robot muevase solamente al punto cuatro,GOAL,0,4
+ejecuta modo dos del objetivo cinco al objetivo cuatro,PARTIAL,5,4
+robot activa modo 2 desde el objetivo tres hasta el objetivo dos,PARTIAL,3,2
+husky activa el modo uno al punto 1,GOAL,0,1
+robot inicia el modo de operacion tres,COMPLETE,0,0
+husky realiza recorrido parcial desde el punto dos hasta el punto tres,PARTIAL,2,3
+robot cicla por todos los objetivos,CYCLIC,0,0
+husky recorre parcialmente del objetivo cinco al objetivo uno,PARTIAL,5,1
+husky activa el modo de operacion 1 hacia el objetivo cinco,GOAL,0,5
+husky ejecuta una trayectoria parcial desde el punto cinco al punto dos,PARTIAL,5,2
+robot cambia al modo de operacion 3,COMPLETE,0,0
+husky ejecuta modo dos del punto uno al punto cuatro,PARTIAL,1,4
+ejecuta una ruta parcial del punto cinco al punto tres,PARTIAL,5,3
+ejecuta la ruta completa,COMPLETE,0,0
+robot muevase solamente al punto cinco,GOAL,0,5
+robot ejecuta el modo de operacion uno para el punto cuatro,GOAL,0,4
+robot ejecuta modo cuatro,CYCLIC,0,0
+robot desplacese del punto tres al punto dos,PARTIAL,3,2
+trayectoria parcial desde el objetivo dos hasta el objetivo uno,PARTIAL,2,1
+robot ejecuta modo 2 desde 1 hasta 4,PARTIAL,1,4
+husky muevase solamente al punto cuatro,GOAL,0,4
+husky ejecuta modo dos del punto cinco al punto uno,PARTIAL,5,1
+ir al punto cuatro,GOAL,0,4
+robot desplacese del punto dos al punto cuatro,PARTIAL,2,4
+husky activa modo 2 desde el objetivo uno hasta el objetivo tres,PARTIAL,1,3
+husky ejecuta modo dos del punto cinco al punto dos,PARTIAL,5,2
+robot desplacese del punto cinco al punto cuatro,PARTIAL,5,4
+activa modo 2 y ve del punto cuatro al uno,PARTIAL,4,1
+ejecuta modo dos del objetivo dos al objetivo tres,PARTIAL,2,3
+husky realiza recorrido parcial desde el punto dos hasta el punto cuatro,PARTIAL,2,4
+robot ve al objetivo tres,GOAL,0,3
+ir al punto tres,GOAL,0,3
+realice el recorrido en bucle,CYCLIC,0,0
+robot ejecuta una trayectoria parcial desde el punto cinco al punto tres,PARTIAL,5,3
+husky selecciona modo tres,COMPLETE,0,0
+trayectoria parcial desde el objetivo dos hasta el objetivo cinco,PARTIAL,2,5
+husky recorre parcialmente del objetivo cuatro al objetivo tres,PARTIAL,4,3
+robot ejecuta solo el objetivo tres,GOAL,0,3
+modo 4,CYCLIC,0,0
+robot realiza recorrido parcial desde el punto dos hasta el punto tres,PARTIAL,2,3
+robot activa el modo de operacion dos del punto cuatro al punto uno,PARTIAL,4,1
+robot recorre parcialmente del objetivo uno al objetivo tres,PARTIAL,1,3
+husky desplacese del punto tres al punto uno,PARTIAL,3,1
+robot activa modo uno al objetivo uno,GOAL,0,1
+robot ejecuta modo 2 desde 2 hasta 5,PARTIAL,2,5
+husky ejecuta modo dos del punto tres al punto uno,PARTIAL,3,1
+husky cambia a modo tres,COMPLETE,0,0
+husky vaya al punto uno,GOAL,0,1
+robot ejecuta modo 2 desde 4 hasta 3,PARTIAL,4,3
+ejecuta modo dos del objetivo dos al objetivo cinco,PARTIAL,2,5
+robot ejecuta modo 1 al objetivo 3,GOAL,0,3
+husky activa el modo de operacion dos del punto dos al punto cinco,PARTIAL,2,5
+robot corre el modo de operacion cuatro,CYCLIC,0,0
+robot ejecuta una trayectoria parcial desde el punto uno al punto dos,PARTIAL,1,2
+robot ejecuta una trayectoria parcial desde el punto cuatro al punto cinco,PARTIAL,4,5
+husky recorre parcialmente del objetivo tres al objetivo cinco,PARTIAL,3,5
+activa modo 1 al punto dos,GOAL,0,2
+robot ejecuta modo dos del punto cinco al punto tres,PARTIAL,5,3
+husky ejecuta la trayectoria completa,COMPLETE,0,0
+robot entra en modo cuatro,CYCLIC,0,0
+robot ejecuta modo dos del punto tres al punto uno,PARTIAL,3,1
+robot activa el modo uno al punto 4,GOAL,0,4
+husky realiza recorrido parcial desde el punto tres hasta el punto cuatro,PARTIAL,3,4
+robot ejecuta trayectoria ciclica,CYCLIC,0,0
+ruta completa,COMPLETE,0,0
+husky recorre parcialmente del objetivo tres al objetivo uno,PARTIAL,3,1
+robot recorre parcialmente del objetivo cinco al objetivo uno,PARTIAL,5,1
+husky ejecuta modo uno al objetivo dos,GOAL,0,2
+robot activa el recorrido ciclico,CYCLIC,0,0
+modo dos punto inicial cinco punto final cuatro,PARTIAL,5,4
+husky ejecuta una trayectoria parcial desde el punto uno al punto tres,PARTIAL,1,3
+ejecuta modo dos del objetivo uno al objetivo cinco,PARTIAL,1,5
+ejecuta una ruta parcial del punto cinco al punto dos,PARTIAL,5,2
+ejecuta la ruta en ciclo,CYCLIC,0,0
+cambia al modo cuatro,CYCLIC,0,0
+modo dos punto inicial uno punto final cuatro,PARTIAL,1,4
+modo dos punto inicial cuatro punto final cinco,PARTIAL,4,5
+robot activa modo 2 desde el objetivo tres hasta el objetivo cuatro,PARTIAL,3,4
+ejecuta una ruta parcial del punto uno al punto tres,PARTIAL,1,3
+robot activa el modo de operacion dos del punto cinco al punto cuatro,PARTIAL,5,4
+robot ejecuta modo dos del punto cuatro al punto uno,PARTIAL,4,1
+husky ejecuta una trayectoria parcial desde el punto dos al punto uno,PARTIAL,2,1
+robot activa modo 2 desde el objetivo cinco hasta el objetivo tres,PARTIAL,5,3
+activa el modo de operacion 4,CYCLIC,0,0
+visita todos los puntos,COMPLETE,0,0
+activa modo 2 y ve del punto cuatro al cinco,PARTIAL,4,5
+repite el recorrido continuamente,CYCLIC,0,0
+robot ejecuta modo 2 desde 5 hasta 1,PARTIAL,5,1
+robot activa modo 2 desde el objetivo cuatro hasta el objetivo dos,PARTIAL,4,2
+husky ejecuta modo uno al objetivo uno,GOAL,0,1
+robot cambia al modo de operacion 4,CYCLIC,0,0
+ejecuta el recorrido completo,COMPLETE,0,0
+robot realiza recorrido parcial desde el punto cinco hasta el punto uno,PARTIAL,5,1
+robot activa modo 2 desde el objetivo dos hasta el objetivo cuatro,PARTIAL,2,4
+robot ejecuta modo 2 desde 2 hasta 4,PARTIAL,2,4
+robot ejecuta modo dos del punto uno al punto cuatro,PARTIAL,1,4
+ejecuta el recorrido en bucle,CYCLIC,0,0
+ejecuta modo uno para el objetivo cinco,GOAL,0,5
+husky ejecuta una trayectoria parcial desde el punto tres al punto dos,PARTIAL,3,2
+husky ejecuta una trayectoria parcial desde el punto tres al punto cuatro,PARTIAL,3,4
+robot ejecuta solo el objetivo cinco,GOAL,0,5
+modo dos punto inicial tres punto final dos,PARTIAL,3,2
+husky recorre parcialmente del objetivo dos al objetivo uno,PARTIAL,2,1
+activa el modo 3 ahora,COMPLETE,0,0
+robot repite el recorrido continuamente,CYCLIC,0,0
+robot realiza recorrido parcial desde el punto cinco hasta el punto cuatro,PARTIAL,5,4
+robot realiza recorrido parcial desde el punto cinco hasta el punto tres,PARTIAL,5,3
+husky realiza recorrido parcial desde el punto dos hasta el punto uno,PARTIAL,2,1
+ejecuta trayectoria ciclica,CYCLIC,0,0
+husky ejecuta modo dos del punto cuatro al punto dos,PARTIAL,4,2
+robot completa la ruta entera,COMPLETE,0,0
+trayectoria parcial desde el objetivo cinco hasta el objetivo uno,PARTIAL,5,1
+robot sigue la ruta en ciclo,CYCLIC,0,0
+husky activa modo dos del punto 5 al punto 4,PARTIAL,5,4
+robot activa el modo de operacion 1 hacia el objetivo cinco,GOAL,0,5
+husky ejecuta el modo de operacion uno para el punto cinco,GOAL,0,5
+husky entra en modo cuatro,CYCLIC,0,0
+robot ejecuta modo 1 al objetivo 5,GOAL,0,5
+husky activa el modo de operacion dos del punto tres al punto uno,PARTIAL,3,1
+husky ejecuta modo 1 al objetivo 3,GOAL,0,3
+husky ejecuta modo 1 al objetivo 2,GOAL,0,2
+husky ejecuta trayectoria ciclica,CYCLIC,0,0
+recorre en bucle todos los puntos,CYCLIC,0,0
+pon en marcha el modo tres,COMPLETE,0,0
+husky ejecuta una trayectoria parcial desde el punto tres al punto cinco,PARTIAL,3,5
+robot ejecuta el modo de operacion uno para el punto cinco,GOAL,0,5
+husky recorre parcialmente del objetivo cuatro al objetivo cinco,PARTIAL,4,5
+sigue todos los puntos de la trayectoria,COMPLETE,0,0
+husky ejecuta una trayectoria parcial desde el punto dos al punto cuatro,PARTIAL,2,4
+robot recorre parcialmente del objetivo cinco al objetivo dos,PARTIAL,5,2
+robot activa modo 3,COMPLETE,0,0
+robot ejecuta una trayectoria parcial desde el punto cinco al punto cuatro,PARTIAL,5,4
+robot ejecuta modo 2 desde 4 hasta 5,PARTIAL,4,5
+robot ejecuta solo el objetivo dos,GOAL,0,2
+husky dirigete al objetivo dos,GOAL,0,2
+ejecuta modo 4 en husky,CYCLIC,0,0
+husky activa modo cuatro,CYCLIC,0,0
+husky desplacese del punto uno al punto cuatro,PARTIAL,1,4
+husky inicia el modo tres,COMPLETE,0,0
+husky activa modo dos del punto 5 al punto 1,PARTIAL,5,1
+husky activa modo 2 desde el objetivo dos hasta el objetivo cinco,PARTIAL,2,5
+robot ejecuta modo 2 desde 4 hasta 2,PARTIAL,4,2
+husky desplacese del punto uno al punto cinco,PARTIAL,1,5
+robot recorre parcialmente del objetivo cuatro al objetivo tres,PARTIAL,4,3
+husky activa modo dos del punto 5 al punto 3,PARTIAL,5,3
+inicializa el modo 3,COMPLETE,0,0
+husky ejecuta modo dos del punto tres al punto cuatro,PARTIAL,3,4
+robot activa el modo de operacion dos del punto cinco al punto dos,PARTIAL,5,2
+trayectoria parcial desde el objetivo tres hasta el objetivo uno,PARTIAL,3,1
+husky desplacese del punto cuatro al punto dos,PARTIAL,4,2
+robot ejecuta modo dos del punto dos al punto uno,PARTIAL,2,1
+sigue todos los puntos sin parar,CYCLIC,0,0
+completa todos los objetivos,COMPLETE,0,0
+robot muevase solamente al punto uno,GOAL,0,1
+husky realiza recorrido parcial desde el punto tres hasta el punto cinco,PARTIAL,3,5
+recorre todos los objetivos una vez,COMPLETE,0,0
+robot ejecuta solo el objetivo cuatro,GOAL,0,4
+robot realiza recorrido parcial desde el punto uno hasta el punto dos,PARTIAL,1,2
+activa el modo de operacion tres ahora,COMPLETE,0,0
+modo dos punto inicial cinco punto final uno,PARTIAL,5,1
+robot ejecuta modo dos del punto tres al punto dos,PARTIAL,3,2
+robot cambia a modo cuatro,CYCLIC,0,0
+husky activa modo uno al objetivo cinco,GOAL,0,5
+robot ejecuta el modo de operacion uno para el punto tres,GOAL,0,3
+robot activa modo 2 desde el objetivo tres hasta el objetivo uno,PARTIAL,3,1
+husky realiza recorrido parcial desde el punto cuatro hasta el punto uno,PARTIAL,4,1
+husky activa modo 2 desde el objetivo cuatro hasta el objetivo tres,PARTIAL,4,3
+husky sigue todos los puntos sin parar,CYCLIC,0,0
+robot recorre parcialmente del objetivo uno al objetivo cuatro,PARTIAL,1,4
+husky activa modo 2 desde el objetivo tres hasta el objetivo cuatro,PARTIAL,3,4
+ejecuta modo dos del objetivo dos al objetivo cuatro,PARTIAL,2,4
+robot activa modo 2 desde el objetivo uno hasta el objetivo dos,PARTIAL,1,2
+ejecuta una ruta parcial del punto dos al punto cinco,PARTIAL,2,5
+husky dirigete al objetivo cuatro,GOAL,0,4
+robot activa modo uno al objetivo tres,GOAL,0,3
+ejecuta el objetivo cuatro,GOAL,0,4
+robot ejecuta una trayectoria parcial desde el punto cinco al punto dos,PARTIAL,5,2
+lleva a cabo la trayectoria completa,COMPLETE,0,0
+husky realiza recorrido parcial desde el punto cuatro hasta el punto cinco,PARTIAL,4,5
+trayectoria parcial desde el objetivo cinco hasta el objetivo dos,PARTIAL,5,2
+husky ve al objetivo cinco,GOAL,0,5
+ejecuta modo uno para el objetivo tres,GOAL,0,3
+robot cambia a modo tres,COMPLETE,0,0
+robot realiza recorrido parcial desde el punto cinco hasta el punto dos,PARTIAL,5,2
+ejecuta el objetivo dos,GOAL,0,2
+husky activa modo uno al objetivo tres,GOAL,0,3
+husky ejecuta solo el objetivo cinco,GOAL,0,5
+husky activa el modo uno al punto 3,GOAL,0,3
+robot ve al objetivo uno,GOAL,0,1
+husky activa modo dos del punto 4 al punto 5,PARTIAL,4,5
+husky vaya al punto cinco,GOAL,0,5
+robot ejecuta modo 2 desde 1 hasta 5,PARTIAL,1,5
+husky ejecuta el modo de operacion uno para el punto uno,GOAL,0,1
+husky desplacese del punto cuatro al punto uno,PARTIAL,4,1
+ir al punto uno,GOAL,0,1
+robot desplacese del punto cinco al punto uno,PARTIAL,5,1
+husky activa el modo de operacion 4,CYCLIC,0,0
+husky activa el modo uno al punto 2,GOAL,0,2
+modo uno objetivo uno,GOAL,0,1
+husky ejecuta modo dos del punto cinco al punto cuatro,PARTIAL,5,4
+husky desplacese del punto cuatro al punto tres,PARTIAL,4,3
+robot activa modo uno al objetivo cuatro,GOAL,0,4
+pon en marcha el ciclo de objetivos,CYCLIC,0,0
+robot ejecuta modo dos del punto tres al punto cinco,PARTIAL,3,5
+robot ejecuta una trayectoria parcial desde el punto dos al punto uno,PARTIAL,2,1
+todos los objetivos,COMPLETE,0,0
+ejecuta modo dos del objetivo uno al objetivo dos,PARTIAL,1,2
+robot ejecuta modo 2 desde 3 hasta 1,PARTIAL,3,1
+husky activa modo 2 desde el objetivo cuatro hasta el objetivo uno,PARTIAL,4,1
+robot activa modo 2 desde el objetivo uno hasta el objetivo cuatro,PARTIAL,1,4
+modo dos punto inicial uno punto final dos,PARTIAL,1,2
+robot activa modo 2 desde el objetivo uno hasta el objetivo tres,PARTIAL,1,3
+robot activa el modo de operacion 1 hacia el objetivo uno,GOAL,0,1
+husky muevase solamente al punto cinco,GOAL,0,5
+sigue la trayectoria completa,COMPLETE,0,0
+robot ejecuta modo 2 desde 3 hasta 5,PARTIAL,3,5
+husky ve al objetivo cuatro,GOAL,0,4
+husky activa el modo de operacion dos del punto cinco al punto dos,PARTIAL,5,2
+robot activa el modo 1 y ejecuta el objetivo uno,GOAL,0,1
+husky selecciona modo cuatro,CYCLIC,0,0
+recorre todo,COMPLETE,0,0
+robot realiza recorrido parcial desde el punto dos hasta el punto cinco,PARTIAL,2,5
+robot ejecuta modo 2 desde 3 hasta 2,PARTIAL,3,2
+husky activa el modo 1 y ejecuta el objetivo cinco,GOAL,0,5
+trayectoria ciclica,CYCLIC,0,0
+robot dirigete al objetivo tres,GOAL,0,3
+ejecuta una ruta parcial del punto uno al punto cinco,PARTIAL,1,5
+husky activa el modo de operacion dos del punto tres al punto dos,PARTIAL,3,2
+robot activa el modo de operacion 1 hacia el objetivo dos,GOAL,0,2
+husky selecciona el modo de operacion 3,COMPLETE,0,0
+husky activa modo dos del punto 3 al punto 2,PARTIAL,3,2
+robot desplacese del punto cinco al punto dos,PARTIAL,5,2
+robot activa el modo de operacion dos del punto tres al punto cuatro,PARTIAL,3,4
+robot desplacese del punto uno al punto cinco,PARTIAL,1,5
+modo dos punto inicial cuatro punto final tres,PARTIAL,4,3
+robot activa el modo de operacion dos del punto tres al punto uno,PARTIAL,3,1
+robot realiza el recorrido en bucle,CYCLIC,0,0
+husky muevase solamente al punto tres,GOAL,0,3
+husky lleva a cabo la trayectoria completa,COMPLETE,0,0
+husky recorre parcialmente del objetivo uno al objetivo cuatro,PARTIAL,1,4
+robot ejecuta una trayectoria parcial desde el punto uno al punto tres,PARTIAL,1,3
+robot activa modo 3,COMPLETE,0,0
+robot ejecuta modo dos del punto cuatro al punto tres,PARTIAL,4,3
+husky ejecuta el modo cuatro,CYCLIC,0,0
+robot selecciona modo tres,COMPLETE,0,0
+husky ejecuta una trayectoria parcial desde el punto cuatro al punto dos,PARTIAL,4,2
+robot activa modo uno al objetivo dos,GOAL,0,2
+robot realiza recorrido parcial desde el punto tres hasta el punto dos,PARTIAL,3,2
+ejecuta todos los puntos de la trayectoria,COMPLETE,0,0
+robot recorre parcialmente del objetivo dos al objetivo tres,PARTIAL,2,3
+husky realiza recorrido parcial desde el punto cinco hasta el punto uno,PARTIAL,5,1
+husky ejecuta solo el objetivo dos,GOAL,0,2
+robot recorre parcialmente del objetivo tres al objetivo cinco,PARTIAL,3,5
+husky ve al objetivo tres,GOAL,0,3
+robot activa el modo uno al punto 3,GOAL,0,3
+husky inicia el modo de operacion tres,COMPLETE,0,0
+robot recorre parcialmente del objetivo uno al objetivo cinco,PARTIAL,1,5
+robot activa el modo uno al punto 2,GOAL,0,2
+robot ejecuta una trayectoria parcial desde el punto tres al punto uno,PARTIAL,3,1
+robot ejecuta modo 2 desde 1 hasta 2,PARTIAL,1,2
+robot ejecuta una trayectoria parcial desde el punto dos al punto tres,PARTIAL,2,3
+repite todos los objetivos en bucle,CYCLIC,0,0
+robot ejecuta modo dos del punto dos al punto tres,PARTIAL,2,3
+ir al punto dos,GOAL,0,2
+robot activa el modo ciclico,CYCLIC,0,0
+robot pasa por todos los objetivos,COMPLETE,0,0
+modo dos punto inicial tres punto final cinco,PARTIAL,3,5
+husky activa el modo de operacion dos del punto cuatro al punto cinco,PARTIAL,4,5
+activa modo 2 y ve del punto tres al dos,PARTIAL,3,2
+robot ejecuta modo 2 desde 2 hasta 1,PARTIAL,2,1
+ejecuta modo dos del objetivo cinco al objetivo tres,PARTIAL,5,3
+robot ejecuta modo dos del punto uno al punto dos,PARTIAL,1,2
+ejecuta una ruta parcial del punto tres al punto cinco,PARTIAL,3,5
+robot recorre parcialmente del objetivo dos al objetivo uno,PARTIAL,2,1
+modo uno objetivo tres,GOAL,0,3
+ejecuta modo dos del objetivo cuatro al objetivo uno,PARTIAL,4,1
+robot activa modo 2 desde el objetivo cinco hasta el objetivo cuatro,PARTIAL,5,4
+ejecuta una ruta parcial del punto cuatro al punto tres,PARTIAL,4,3
+ejecuta modo dos del objetivo uno al objetivo tres,PARTIAL,1,3
+husky desplacese del punto uno al punto dos,PARTIAL,1,2
+robot activa el modo uno al punto 5,GOAL,0,5
+robot activa el modo de operacion 1 hacia el objetivo cuatro,GOAL,0,4
+husky ejecuta el modo de operacion uno para el punto cuatro,GOAL,0,4
+husky ejecuta el recorrido completo,COMPLETE,0,0
+robot ejecuta modo uno al objetivo uno,GOAL,0,1
+robot activa el modo de operacion dos del punto dos al punto cuatro,PARTIAL,2,4
+husky activa modo 2 desde el objetivo tres hasta el objetivo cinco,PARTIAL,3,5
+selecciona modo tres,COMPLETE,0,0
+husky visita todos los puntos,COMPLETE,0,0
+husky ejecuta modo dos del punto tres al punto cinco,PARTIAL,3,5
+robot activa modo 2 desde el objetivo uno hasta el objetivo cinco,PARTIAL,1,5
+modo uno objetivo cuatro,GOAL,0,4
+robot ejecuta modo 2 desde 5 hasta 3,PARTIAL,5,3
+husky ejecuta el modo tres completo,COMPLETE,0,0
+robot entra en modo tres,COMPLETE,0,0
+husky desplacese del punto dos al punto tres,PARTIAL,2,3
+activa modo 1 al punto cuatro,GOAL,0,4
+sigue todos los objetivos del recorrido,COMPLETE,0,0
+modo dos punto inicial dos punto final tres,PARTIAL,2,3
+husky activa modo dos del punto 2 al punto 1,PARTIAL,2,1
+ejecuta modo dos del objetivo cuatro al objetivo cinco,PARTIAL,4,5
+husky ejecuta modo dos del punto tres al punto dos,PARTIAL,3,2
+modo dos punto inicial tres punto final uno,PARTIAL,3,1
+robot desplacese del punto uno al punto cuatro,PARTIAL,1,4
+bucle de objetivos,CYCLIC,0,0
+husky activa el modo de operacion dos del punto tres al punto cuatro,PARTIAL,3,4
+robot activa modo 2 desde el objetivo cuatro hasta el objetivo cinco,PARTIAL,4,5
+husky recorre parcialmente del objetivo dos al objetivo tres,PARTIAL,2,3
+activa el modo tres con trayectoria completa,COMPLETE,0,0
+robot ejecuta una trayectoria parcial desde el punto tres al punto dos,PARTIAL,3,2
+robot ve al objetivo cuatro,GOAL,0,4
+robot activa el modo de operacion dos del punto tres al punto dos,PARTIAL,3,2
+husky activa el modo de operacion dos del punto dos al punto uno,PARTIAL,2,1
+husky ejecuta modo uno al objetivo tres,GOAL,0,3
+robot recorre todos los puntos de forma continua,CYCLIC,0,0
+robot ejecuta modo uno al objetivo dos,GOAL,0,2
+robot desplacese del punto dos al punto cinco,PARTIAL,2,5
+robot recorre parcialmente del objetivo tres al objetivo dos,PARTIAL,3,2
+husky realiza recorrido parcial desde el punto cinco hasta el punto tres,PARTIAL,5,3
+activa modo 2 y ve del punto dos al tres,PARTIAL,2,3
+activa modo 2 y ve del punto dos al cinco,PARTIAL,2,5
+robot desplacese del punto uno al punto dos,PARTIAL,1,2
+realiza el recorrido completo,COMPLETE,0,0
+husky ejecuta modo dos del punto cinco al punto tres,PARTIAL,5,3
+husky sigue la trayectoria completa,COMPLETE,0,0
+husky activa modo dos del punto 2 al punto 4,PARTIAL,2,4
+husky ejecuta una trayectoria parcial desde el punto cinco al punto uno,PARTIAL,5,1
+trayectoria parcial desde el objetivo cuatro hasta el objetivo cinco,PARTIAL,4,5
+robot activa modo 2 desde el objetivo dos hasta el objetivo cinco,PARTIAL,2,5
+robot activa el modo de operacion dos del punto dos al punto uno,PARTIAL,2,1
+husky realiza recorrido parcial desde el punto dos hasta el punto cinco,PARTIAL,2,5
+ejecuta la trayectoria completa,COMPLETE,0,0
+robot desplacese del punto uno al punto tres,PARTIAL,1,3
+husky desplacese del punto tres al punto dos,PARTIAL,3,2
+pon en marcha el modo cuatro,CYCLIC,0,0
+robot ejecuta una trayectoria parcial desde el punto cinco al punto uno,PARTIAL,5,1
+robot ejecuta el recorrido de forma ciclica,CYCLIC,0,0
+husky sigue la ruta en ciclo,CYCLIC,0,0
+husky recorre en bucle todos los puntos,CYCLIC,0,0
+activa el recorrido ciclico,CYCLIC,0,0
+robot activa el modo 1 y ejecuta el objetivo cuatro,GOAL,0,4
+activa modo 4 y repite todos los puntos,CYCLIC,0,0
+husky realiza trayectoria ciclica,CYCLIC,0,0
+husky activa modo 2 desde el objetivo dos hasta el objetivo cuatro,PARTIAL,2,4
+husky cicla por todos los puntos,CYCLIC,0,0
+robot desplacese del punto cuatro al punto dos,PARTIAL,4,2
+ejecuta una ruta parcial del punto tres al punto dos,PARTIAL,3,2
+robot recorre parcialmente del objetivo cuatro al objetivo dos,PARTIAL,4,2
+husky activa el modo de operacion dos del punto uno al punto tres,PARTIAL,1,3
+robot activa el modo ciclico ahora,CYCLIC,0,0
+activa modo 1 al punto tres,GOAL,0,3
+robot ejecuta modo uno al objetivo tres,GOAL,0,3
+husky ejecuta una trayectoria parcial desde el punto cinco al punto cuatro,PARTIAL,5,4
+ejecuta una ruta parcial del punto uno al punto cuatro,PARTIAL,1,4
+husky recorre parcialmente del objetivo uno al objetivo cinco,PARTIAL,1,5
+ejecuta modo 3 en husky,COMPLETE,0,0
+modo uno objetivo cinco,GOAL,0,5
+husky activa el modo de operacion 1 hacia el objetivo dos,GOAL,0,2
+robot realiza recorrido parcial desde el punto tres hasta el punto uno,PARTIAL,3,1
+ejecuta una ruta parcial del punto dos al punto cuatro,PARTIAL,2,4
+activa modo 2 y ve del punto dos al cuatro,PARTIAL,2,4
+robot ejecuta modo 2 desde 5 hasta 2,PARTIAL,5,2
+husky activa el modo de operacion dos del punto cuatro al punto dos,PARTIAL,4,2
+activa modo 2 y ve del punto dos al uno,PARTIAL,2,1
+husky realiza recorrido parcial desde el punto uno hasta el punto dos,PARTIAL,1,2
+husky activa modo dos del punto 2 al punto 3,PARTIAL,2,3
+robot activa el modo de operacion dos del punto cuatro al punto dos,PARTIAL,4,2
+robot activa modo 2 desde el objetivo cinco hasta el objetivo uno,PARTIAL,5,1
+husky dirigete al objetivo cinco,GOAL,0,5
+husky recorre parcialmente del objetivo cuatro al objetivo uno,PARTIAL,4,1
+husky activa el modo de operacion dos del punto uno al punto cuatro,PARTIAL,1,4
+husky activa el modo 1 y ejecuta el objetivo dos,GOAL,0,2
+husky ejecuta modo 1 al objetivo 5,GOAL,0,5
+robot activa modo 4,CYCLIC,0,0
+trayectoria parcial desde el objetivo cuatro hasta el objetivo dos,PARTIAL,4,2
+husky activa modo 2 desde el objetivo tres hasta el objetivo dos,PARTIAL,3,2
+husky completa todo el recorrido,COMPLETE,0,0
+husky repite el recorrido continuamente,CYCLIC,0,0
+husky ejecuta modo uno al objetivo cuatro,GOAL,0,4
+robot selecciona modo cuatro,CYCLIC,0,0
+husky desplacese del punto dos al punto cinco,PARTIAL,2,5
+ejecuta una ruta parcial del punto cuatro al punto uno,PARTIAL,4,1
+husky activa el modo de operacion 3,COMPLETE,0,0
+robot ejecuta una trayectoria parcial desde el punto dos al punto cinco,PARTIAL,2,5
+husky desplacese del punto cinco al punto cuatro,PARTIAL,5,4
+trayectoria parcial desde el objetivo cinco hasta el objetivo cuatro,PARTIAL,5,4
+selecciona modo cuatro,CYCLIC,0,0
+ejecuta modo dos del objetivo cinco al objetivo uno,PARTIAL,5,1
+robot realiza recorrido parcial desde el punto cuatro hasta el punto tres,PARTIAL,4,3
+husky ejecuta modo uno al objetivo cinco,GOAL,0,5
+robot ejecuta modo 1 al objetivo 2,GOAL,0,2
+robot ejecuta solo el objetivo uno,GOAL,0,1
+robot dirigete al objetivo cinco,GOAL,0,5
+husky dirigete al objetivo tres,GOAL,0,3
+husky activa modo 2 desde el objetivo tres hasta el objetivo uno,PARTIAL,3,1
+husky realiza recorrido parcial desde el punto tres hasta el punto dos,PARTIAL,3,2
+ejecuta modo dos del objetivo tres al objetivo cuatro,PARTIAL,3,4
+husky activa modo uno al objetivo dos,GOAL,0,2
+husky recorre parcialmente del objetivo cinco al objetivo cuatro,PARTIAL,5,4
+husky ejecuta el modo de operacion cuatro,CYCLIC,0,0
+modo dos punto inicial cinco punto final tres,PARTIAL,5,3
+robot realiza recorrido parcial desde el punto tres hasta el punto cuatro,PARTIAL,3,4
+husky vaya al punto cuatro,GOAL,0,4
+robot realiza la trayectoria completa,COMPLETE,0,0
+husky desplacese del punto cinco al punto dos,PARTIAL,5,2
+recorre en ciclo,CYCLIC,0,0
+modo dos punto inicial tres punto final cuatro,PARTIAL,3,4
+husky recorre parcialmente del objetivo tres al objetivo dos,PARTIAL,3,2
+robot recorre parcialmente del objetivo dos al objetivo cuatro,PARTIAL,2,4
+modo 3,COMPLETE,0,0
+husky muevase solamente al punto dos,GOAL,0,2
+husky ejecuta todos los puntos de la trayectoria,COMPLETE,0,0
+robot recorre parcialmente del objetivo cinco al objetivo tres,PARTIAL,5,3
+robot activa el modo uno al punto 1,GOAL,0,1
+recorre todos los puntos de la ruta,COMPLETE,0,0
+husky activa el modo de operacion 1 hacia el objetivo cuatro,GOAL,0,4
+activa modo 4,CYCLIC,0,0
+husky activa el modo 3,COMPLETE,0,0
+robot recorre parcialmente del objetivo tres al objetivo uno,PARTIAL,3,1
+robot ejecuta modo dos del punto tres al punto cuatro,PARTIAL,3,4
+husky desplacese del punto uno al punto tres,PARTIAL,1,3
+robot ejecuta una trayectoria parcial desde el punto uno al punto cinco,PARTIAL,1,5
+robot vaya al punto tres,GOAL,0,3
+husky recorre parcialmente del objetivo dos al objetivo cuatro,PARTIAL,2,4
+robot activa el modo de operacion dos del punto uno al punto tres,PARTIAL,1,3
+robot ejecuta modo dos del punto cinco al punto dos,PARTIAL,5,2
+robot ejecuta modo uno al objetivo cuatro,GOAL,0,4
+husky inicia el modo de operacion cuatro,CYCLIC,0,0
+husky completa la ruta entera,COMPLETE,0,0
+activa modo 2 y ve del punto tres al cuatro,PARTIAL,3,4
+robot realiza recorrido parcial desde el punto tres hasta el punto cinco,PARTIAL,3,5
+robot dirigete al objetivo uno,GOAL,0,1
+husky realiza recorrido parcial desde el punto cinco hasta el punto cuatro,PARTIAL,5,4
+selecciona el modo de operacion cuatro,CYCLIC,0,0
+modo cuatro,CYCLIC,0,0
+ejecuta modo dos del objetivo tres al objetivo cinco,PARTIAL,3,5
+robot recorre parcialmente del objetivo tres al objetivo cuatro,PARTIAL,3,4
+robot ejecuta modo 2 desde 2 hasta 3,PARTIAL,2,3
+husky ejecuta una trayectoria parcial desde el punto cuatro al punto cinco,PARTIAL,4,5
+husky activa modo dos del punto 1 al punto 3,PARTIAL,1,3
+robot activa el modo de operacion dos del punto cinco al punto uno,PARTIAL,5,1
+husky ejecuta el modo de operacion uno para el punto tres,GOAL,0,3
+ejecuta modo dos del objetivo tres al objetivo dos,PARTIAL,3,2
+robot ejecuta el recorrido completo,COMPLETE,0,0
+robot desplacese del punto tres al punto uno,PARTIAL,3,1
+activa modo 1 al punto uno,GOAL,0,1
+husky ejecuta el modo de operacion tres,COMPLETE,0,0
+husky realiza recorrido parcial desde el punto uno hasta el punto tres,PARTIAL,1,3
+husky activa el modo de operacion dos del punto dos al punto tres,PARTIAL,2,3
+activa modo 2 y ve del punto cinco al cuatro,PARTIAL,5,4
+activa modo 2 y ve del punto tres al uno,PARTIAL,3,1
+robot recorre parcialmente del objetivo uno al objetivo dos,PARTIAL,1,2
+completa el recorrido,COMPLETE,0,0
+robot activa modo uno al objetivo cinco,GOAL,0,5
+husky recorre todos los puntos de la ruta,COMPLETE,0,0
+robot activa el modo 3 con el recorrido completo,COMPLETE,0,0
+robot realiza recorrido parcial desde el punto cuatro hasta el punto dos,PARTIAL,4,2
+sigue todos los puntos de forma continua,CYCLIC,0,0
+ejecuta el objetivo uno,GOAL,0,1
+ejecuta el modo de operacion 3,COMPLETE,0,0
+husky activa modo 2 desde el objetivo cuatro hasta el objetivo cinco,PARTIAL,4,5
+husky activa modo tres,COMPLETE,0,0
+husky vaya al punto dos,GOAL,0,2
+trayectoria parcial desde el objetivo dos hasta el objetivo cuatro,PARTIAL,2,4
+husky activa el modo 4,CYCLIC,0,0
+robot visita todos los puntos,COMPLETE,0,0
+ir al punto cinco,GOAL,0,5
+husky activa el modo de operacion dos del punto dos al punto cuatro,PARTIAL,2,4
+ejecuta todo el recorrido,COMPLETE,0,0
+husky ejecuta una trayectoria parcial desde el punto dos al punto cinco,PARTIAL,2,5
+husky completa todos los objetivos,COMPLETE,0,0
+robot activa modo 2 desde el objetivo tres hasta el objetivo cinco,PARTIAL,3,5
+robot vaya al punto cuatro,GOAL,0,4
+robot ejecuta una trayectoria parcial desde el punto cuatro al punto uno,PARTIAL,4,1
+activa modo 2 y ve del punto cinco al dos,PARTIAL,5,2
+trayectoria parcial desde el objetivo cinco hasta el objetivo tres,PARTIAL,5,3
+robot desplacese del punto cuatro al punto cinco,PARTIAL,4,5
+husky recorre parcialmente del objetivo uno al objetivo dos,PARTIAL,1,2
+haz toda la trayectoria,COMPLETE,0,0
+modo dos punto inicial uno punto final cinco,PARTIAL,1,5
+husky repite todos los objetivos en bucle,CYCLIC,0,0
+modo dos punto inicial cinco punto final dos,PARTIAL,5,2
+trayectoria parcial desde el objetivo tres hasta el objetivo cinco,PARTIAL,3,5
+ejecuta el objetivo cinco,GOAL,0,5
+ejecuta modo uno para el objetivo cuatro,GOAL,0,4
+robot ejecuta modo 2 desde 3 hasta 4,PARTIAL,3,4
+ejecuta modo dos del objetivo cuatro al objetivo dos,PARTIAL,4,2
+activa modo 2 y ve del punto uno al tres,PARTIAL,1,3
+husky ejecuta modo dos del punto dos al punto uno,PARTIAL,2,1
+activa el modo 4 ahora,CYCLIC,0,0
+robot activa el modo 1 y ejecuta el objetivo tres,GOAL,0,3
+activa modo 2 y ve del punto cuatro al tres,PARTIAL,4,3
+robot activa el modo de operacion 1 hacia el objetivo tres,GOAL,0,3
+selecciona el modo de operacion tres,COMPLETE,0,0
+modo dos punto inicial uno punto final tres,PARTIAL,1,3
+modo uno objetivo dos,GOAL,0,2
+husky activa el modo de operacion dos del punto cuatro al punto tres,PARTIAL,4,3
+robot ve al objetivo dos,GOAL,0,2
+husky activa el modo uno al punto 5,GOAL,0,5
+robot ejecuta el modo de operacion uno para el punto uno,GOAL,0,1
+husky ejecuta modo dos del punto dos al punto cuatro,PARTIAL,2,4
+husky ejecuta modo dos del punto uno al punto dos,PARTIAL,1,2
+ejecuta una ruta parcial del punto cinco al punto uno,PARTIAL,5,1
+husky activa modo dos del punto 2 al punto 5,PARTIAL,2,5
+modo dos punto inicial dos punto final uno,PARTIAL,2,1
+robot recorre parcialmente del objetivo cinco al objetivo cuatro,PARTIAL,5,4
+husky realiza el recorrido en bucle,CYCLIC,0,0
+robot corre el modo de operacion tres,COMPLETE,0,0
+ciclo continuo,CYCLIC,0,0
+husky recorre toda la trayectoria,COMPLETE,0,0
+trayectoria parcial desde el objetivo uno hasta el objetivo tres,PARTIAL,1,3
+repite la trayectoria en ciclo,CYCLIC,0,0
+robot repite todos los objetivos en bucle,CYCLIC,0,0
+husky realiza recorrido parcial desde el punto tres hasta el punto uno,PARTIAL,3,1
+modo cuatro trayectoria ciclica,CYCLIC,0,0
+robot recorre toda la trayectoria,COMPLETE,0,0
+robot ve al objetivo cinco,GOAL,0,5
+husky activa el modo de operacion 1 hacia el objetivo tres,GOAL,0,3
+robot corre modo de operacion cuatro,CYCLIC,0,0
+husky desplacese del punto tres al punto cinco,PARTIAL,3,5
+robot ejecuta modo 1 al objetivo 4,GOAL,0,4
+ejecuta modo dos del objetivo uno al objetivo cuatro,PARTIAL,1,4
+husky activa modo dos del punto 1 al punto 5,PARTIAL,1,5
+robot ejecuta modo dos del punto uno al punto tres,PARTIAL,1,3
+husky activa modo 2 desde el objetivo cinco hasta el objetivo cuatro,PARTIAL,5,4
+robot realiza recorrido parcial desde el punto dos hasta el punto uno,PARTIAL,2,1
+robot activa modo 2 desde el objetivo dos hasta el objetivo tres,PARTIAL,2,3
+trayectoria parcial desde el objetivo tres hasta el objetivo dos,PARTIAL,3,2
+husky cubre todos los puntos del mapa,COMPLETE,0,0
+husky recorre parcialmente del objetivo cuatro al objetivo dos,PARTIAL,4,2
+robot ejecuta el modo de operacion uno para el punto dos,GOAL,0,2
+modo tres trayectoria completa,COMPLETE,0,0
+robot activa modo 2 desde el objetivo dos hasta el objetivo uno,PARTIAL,2,1
+robot muevase solamente al punto dos,GOAL,0,2
+modo dos punto inicial cuatro punto final uno,PARTIAL,4,1
+husky vaya al punto tres,GOAL,0,3
+ejecuta una ruta parcial del punto cinco al punto cuatro,PARTIAL,5,4
+robot vaya al punto cinco,GOAL,0,5
+ejecuta una ruta parcial del punto dos al punto uno,PARTIAL,2,1
+husky repite todo el recorrido,CYCLIC,0,0
+husky activa el modo de operacion dos del punto uno al punto dos,PARTIAL,1,2
+husky activa el modo de operacion dos del punto cuatro al punto uno,PARTIAL,4,1
+robot recorre parcialmente del objetivo cuatro al objetivo uno,PARTIAL,4,1
+ejecuta el objetivo tres,GOAL,0,3
+robot ejecuta modo dos del punto cinco al punto cuatro,PARTIAL,5,4
+ejecuta todos los objetivos,COMPLETE,0,0

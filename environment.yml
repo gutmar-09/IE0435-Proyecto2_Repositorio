@@ -1,0 +1,15 @@
+name: voice_control_husky
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - joblib
+  - scipy
+  - pip
+  - pip:
+      - vosk>=0.3.45
+      - sounddevice>=0.4.6
