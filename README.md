@@ -10,10 +10,8 @@ El sistema permite que el usuario indique por voz el modo de operación deseado,
 voice_control/
 ├── README.md
 ├── DATASET.md
-├── MODEL_CARD.md
 ├── LICENSE
 ├── requirements.txt
-├── environment.yml
 ├── .gitignore
 ├── data/
 │   ├── train_commands.csv
@@ -26,7 +24,7 @@ voice_control/
 ├── reports/
 │   └── IE0435_Reporte_Modelos.pdf
 ├── video/
-│   └── README.md
+│   └── demo.mp4
 └── docs/
     └── repository_notes.md
 ```
