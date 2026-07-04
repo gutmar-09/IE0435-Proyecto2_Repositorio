@@ -1,4 +1,4 @@
-name: voice_control_husky
+name: voice_control
 channels:
   - conda-forge
   - defaults
