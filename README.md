@@ -12,7 +12,7 @@ voice_control/
 ├── DATASET.md
 ├── LICENSE
 ├── requirements.txt
-├── .gitignore
+├── environment.yml
 ├── data/
 │   ├── train_commands.csv
 │   └── test_commands.csv
