@@ -60,26 +60,6 @@ El repositorio fue preparado para ejecutarse en:
 - Micrófono funcional.
 - Modelo de reconocimiento de voz Vosk en español.
 
-## Instalación usando pip
-
-Desde la terminal de Ubuntu, ingresar al directorio del proyecto y ejecutar:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-## Instalación usando conda
-
-Si se prefiere utilizar conda o mamba:
-
-```bash
-conda env create -f environment.yml
-conda activate voice_control_husky
-```
-
 ## Preparación de los datos
 
 Los archivos de datos deben ubicarse dentro de la carpeta `data/`:
@@ -109,17 +89,6 @@ Las clases utilizadas por el sistema son:
 - `COMPLETE`: recorrido completo de la trayectoria registrada.
 - `CYCLIC`: recorrido cíclico.
 
-## Entrenamiento del modelo
-
-Para entrenar y evaluar los modelos de clasificación:
-
-```bash
-python3 src/train_voice_command_models.py \
-    --train data/train_commands.csv \
-    --test data/test_commands.csv \
-    --output models/mejor_modelo.joblib
-```
-
 El programa debe realizar las siguientes etapas:
 
 1. Cargar los comandos de entrenamiento y prueba.
@@ -128,22 +97,6 @@ El programa debe realizar las siguientes etapas:
 4. Evaluar cada modelo con Accuracy, Precision, Recall y F1-score.
 5. Seleccionar el modelo con mayor F1-score ponderado.
 6. Guardar el modelo seleccionado en `models/mejor_modelo.joblib`.
-
-## Inferencia con el nodo de ROS
-
-Antes de ejecutar el nodo de reconocimiento de voz, asegúrese de tener activo el entorno de ROS:
-
-```bash
-source /opt/ros/noetic/setup.bash
-source ~/noetic_workspace/devel/setup.bash
-```
-
-Luego, desde el repositorio:
-
-```bash
-python3 src/voice_command_node.py \
-    --model models/mejor_modelo.joblib
-```
 
 El nodo permanecerá esperando la palabra de activación `Husky`. Después de detectarla, almacenará el comando hasta escuchar una palabra de finalización como `ejecuta` o `ejecute`.
 
@@ -170,14 +123,6 @@ Este archivo contiene la información requerida por el sistema de navegación:
 modo_operacion objetivo_inicial objetivo_final
 ```
 
-Por ejemplo:
-
-```text
-2 1 4
-```
-
-Este resultado indica un recorrido parcial desde el objetivo 1 hasta el objetivo 4.
-
 ## Reporte final
 
 El informe final del proyecto se encuentra en:
@@ -194,48 +139,9 @@ El video del funcionamiento completo del sistema debe colocarse dentro de la car
 video/
 ```
 
-En caso de que el video sea demasiado pesado para GitHub o GitLab, se recomienda colocar en `video/README.md` un enlace institucional al archivo.
+## Consideración si se desea replicar el proyecto
 
-## Cómo subir este repositorio a GitHub o GitLab desde Ubuntu 20.04.6 LTS
-
-Ubicarse dentro de la carpeta del repositorio:
-
-```bash
-cd voice_control
-```
-
-Inicializar Git:
-
-```bash
-git init
-```
-
-Agregar todos los archivos:
-
-```bash
-git add .
-```
-
-Crear el primer commit:
-
-```bash
-git commit -m "Entrega final del proyecto de clasificacion de comandos de voz"
-```
-
-Conectar con el repositorio remoto:
-
-```bash
-git remote add origin https://github.com/usuario/nombre-del-repositorio.git
-```
-
-Subir los archivos:
-
-```bash
-git branch -M main
-git push -u origin main
-```
-
-Si se utiliza GitLab institucional, solamente debe cambiarse la URL del repositorio remoto.
+Para lograr reproducir este proyecto se deben realizar muchas instalaciones, como lo es el caso de ROS Noetic, Vosk y varias bibliotecas. Es por este motivo que en este repertorio se explica el funcionamiento del proyecto de forma descriptiva y explicativa.
 
 ## Autor
 
